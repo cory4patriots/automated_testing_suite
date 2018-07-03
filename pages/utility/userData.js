@@ -1,4 +1,4 @@
-var formData = Object.create({
+var userData = Object.create({
   firstName: "Cory",
   lastName: "Kelly",
   email: "cory_100@test.com",
@@ -8,4 +8,4 @@ var formData = Object.create({
   creditCardNumber: "1184555555333333",
   cvv: "111"
 });
-module.exports = formData;
+module.exports = userData;

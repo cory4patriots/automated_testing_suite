@@ -1,10 +1,16 @@
 var Page = require("./page");
-var formData = require("../form.data");
+var formData = require("../pages/utility/userData");
 
 var login = Object.create(Page, {
-  open_checkout: {
+  openCheckout: {
     value: function() {
       Page.open.call(this, "checkout/pph/index.php");
+    }
+  },
+  PageCheck: {
+    get: function() {
+      var url = "checkout/pph/index.php";
+      return url;
     }
   },
   firstName: {
@@ -73,20 +79,21 @@ var login = Object.create(Page, {
     get: function() {
       return "#submitButton";
     }
-  },
-  links: {
-    get: function() {
-      return {
-        //Dev
-        home_dev: "http://pph.dev.4patriots.net/index.php",
-        checkout_dev: "http://pph.dev.4patriots.net/checkout/pph/index.php?AFID=MINISITE",
-        video_dev: "http://ppg.dev.4patriots.net/video/ppg/index.php?AFID=MINISITE",
-        //Stage
-        home_stage: "https://pph.stage.4patriots.net/index.php?AFID=MINISITE",
-        checkout_stage: "https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE",
-        video_stage: "https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE"
-      };
-    }
   }
 });
 module.exports = login;
+
+// links: {
+//   get: function() {
+//     return {
+//       //Dev
+//       home_dev: "http://pph.dev.4patriots.net/index.php",
+//       checkout_dev: "http://pph.dev.4patriots.net/checkout/pph/index.php?AFID=MINISITE",
+//       video_dev: "http://ppg.dev.4patriots.net/video/ppg/index.php?AFID=MINISITE",
+//       //Stage
+//       home_stage: "https://pph.stage.4patriots.net/index.php?AFID=MINISITE",
+//       checkout_stage: "https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE",
+//       video_stage: "https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE"
+//     };
+//   }
+// }
