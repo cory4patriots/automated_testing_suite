@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522791218068' stop='1522791218071'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</title>
+    <test-cases>
+        <test-case start='1522791218068' status='failed' stop='1522791218070'>
+            <name>Check the functionality of the purchase link</name>
+            <title>Check the functionality of the purchase link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522791218068' status='passed' stop='1522791218069'>
+                    <name>POST /wd/hub/session/e8f9d8c8-b5a9-6448-b1af-b33fd5214f0c/elements</name>
+                    <title>POST /wd/hub/session/e8f9d8c8-b5a9-6448-b1af-b33fd5214f0c/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8bb92309-a4f2-44d8-93b1-488a80e2c4ca-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='9a658e51-7072-46d7-bf64-f150e1e57f17-attachment.json' type='application/json' size='274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522791218070' status='passed' stop='1522791218070'>
+                    <name>GET /wd/hub/session/e8f9d8c8-b5a9-6448-b1af-b33fd5214f0c/url</name>
+                    <title>GET /wd/hub/session/e8f9d8c8-b5a9-6448-b1af-b33fd5214f0c/url</title>
+                    <attachments>
+                        <attachment title='Response' source='218eb199-1b1d-4491-9887-5831dab06ea9-attachment.json' type='application/json' size='200'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'</message>
+                <stack-trace>AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:46:14)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

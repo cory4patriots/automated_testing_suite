@@ -1,0 +1,85 @@
+{
+  "uid" : "428b7ebf5fe53c45",
+  "name" : "guarantees should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy home Link.guarantees should be visiable on landing page",
+  "historyId" : "a31f3d66d4fa8ce3efd79c756bb0e5a6",
+  "time" : {
+    "start" : 1522788506937,
+    "stop" : 1522788506939,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/92944952-c472-114b-a1a4-0110c2ab9fb0/url",
+      "time" : {
+        "start" : 1522788506938,
+        "stop" : 1522788506938,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b8a39acf7096b50",
+        "name" : "Response",
+        "source" : "6b8a39acf7096b50.json",
+        "type" : "application/json",
+        "size" : 197
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy home Link"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy home Link"
+  }, {
+    "name" : "testMethod",
+    "value" : "guarantees should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy home Link"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "428b7ebf5fe53c45.json",
+  "parameterValues" : [ "firefox" ]
+}

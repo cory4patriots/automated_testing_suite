@@ -1,0 +1,25 @@
+{
+    "sessionId": "03bfb99a991eb78a70376a257d0b1225",
+    "status": 0,
+    "value": {
+        "body": {
+            "offsetHeight": 2171,
+            "scrollHeight": 2181
+        },
+        "html": {
+            "clientHeight": 700,
+            "clientWidth": 800,
+            "offsetHeight": 2181,
+            "scrollHeight": 2181,
+            "scrollWidth": 800
+        },
+        "window": {
+            "innerHeight": 700,
+            "innerWidth": 800,
+            "orientation": 0,
+            "pixelRatio": 1,
+            "screenHeight": 1440,
+            "screenWidth": 2560
+        }
+    }
+}

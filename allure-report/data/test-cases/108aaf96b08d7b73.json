@@ -1,0 +1,88 @@
+{
+  "uid" : "108aaf96b08d7b73",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522785241646,
+    "stop" : 1522785244977,
+    "duration" : 3331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+  "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(<Function>) - isVisible.js:54:17\n                    at isVisible(<Function>) - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(<Function>) - isVisible.js:54:17\n                    at isVisible(<Function>) - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/623e6099-c06a-8d47-a8cc-40be721c4f97/screenshot",
+      "time" : {
+        "start" : 1522785244623,
+        "stop" : 1522785244977,
+        "duration" : 354
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(<Function>) - isVisible.js:54:17\n                    at isVisible(<Function>) - waitForVisible.js:73:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4167f52687c5be6",
+        "name" : "Screenshot",
+        "source" : "e4167f52687c5be6.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "108aaf96b08d7b73.json",
+  "parameterValues" : [ "firefox" ]
+}

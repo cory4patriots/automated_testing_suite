@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522865178673' stop='1522865212421'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</title>
+    <test-cases>
+        <test-case start='1522865178673' status='passed' stop='1522865212420'>
+            <name>Check the functionality of the purchase link</name>
+            <title>Check the functionality of the purchase link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522865178673' status='passed' stop='1522865178673'>
+                    <name>POST /wd/hub/session/2fc8b35674a354fa82695fa1b02a3be0/element</name>
+                    <title>POST /wd/hub/session/2fc8b35674a354fa82695fa1b02a3be0/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f72fcf01-21c5-422f-8ee3-3a7582f7ac21-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='1b511666-2fca-4f8d-9b81-97602e4d484b-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522865178673' status='passed' stop='1522865178700'>
+                    <name>POST /wd/hub/session/2fc8b35674a354fa82695fa1b02a3be0/element/0.6234720386230233-6/click</name>
+                    <title>POST /wd/hub/session/2fc8b35674a354fa82695fa1b02a3be0/element/0.6234720386230233-6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='aa005695-7a30-427e-8be8-891135669cef-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522865212407' status='passed' stop='1522865212418'>
+                    <name>GET /wd/hub/session/2fc8b35674a354fa82695fa1b02a3be0/url</name>
+                    <title>GET /wd/hub/session/2fc8b35674a354fa82695fa1b02a3be0/url</title>
+                    <attachments>
+                        <attachment title='Response' source='9813cc5a-40bc-4fdc-adc3-25410c224ee1-attachment.json' type='application/json' size='157'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

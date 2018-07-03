@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1523986476356' stop='1523986476374'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</title>
+    <test-cases>
+        <test-case start='1523986476356' status='failed' stop='1523986476374'>
+            <name>Check the functionality of the purchase link</name>
+            <title>Check the functionality of the purchase link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/lander.test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1523986476356' status='passed' stop='1523986476357'>
+                    <name>POST /wd/hub/session/81e93ea4a90669ce89447aa5b51bfc66/element</name>
+                    <title>POST /wd/hub/session/81e93ea4a90669ce89447aa5b51bfc66/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2b0a69e4-7c08-4134-83aa-4b9778a6ba15-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='b558c7bc-1077-4575-a5b4-9793a772f3de-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523986476357' status='passed' stop='1523986476362'>
+                    <name>POST /wd/hub/session/81e93ea4a90669ce89447aa5b51bfc66/element/0.6690040351074067-6/click</name>
+                    <title>POST /wd/hub/session/81e93ea4a90669ce89447aa5b51bfc66/element/0.6690040351074067-6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='fdbd06ee-57e1-46f8-888d-48c76d7c6d19-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523986476366' status='passed' stop='1523986476370'>
+                    <name>GET /wd/hub/session/81e93ea4a90669ce89447aa5b51bfc66/url</name>
+                    <title>GET /wd/hub/session/81e93ea4a90669ce89447aa5b51bfc66/url</title>
+                    <attachments>
+                        <attachment title='Response' source='1809b696-5384-421c-9ad5-3b37958b08e5-attachment.json' type='application/json' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'</message>
+                <stack-trace>AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/lander.test.js:54:14)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

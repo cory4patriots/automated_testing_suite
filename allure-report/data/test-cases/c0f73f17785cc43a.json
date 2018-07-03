@@ -1,0 +1,365 @@
+{
+  "uid" : "c0f73f17785cc43a",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "3d56c67584de8ed9ee19e4a33d05fd97",
+  "time" : {
+    "start" : 1522792342441,
+    "stop" : 1522792369231,
+    "duration" : 26790
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/ec100cbc-1740-6749-b4ee-8bfdb9219ade/element",
+      "time" : {
+        "start" : 1522792342441,
+        "stop" : 1522792342442,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c8fd51179fb9f3bc",
+        "name" : "Request",
+        "source" : "c8fd51179fb9f3bc.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "15e0821d04cdbbb1",
+        "name" : "Response",
+        "source" : "15e0821d04cdbbb1.json",
+        "type" : "application/json",
+        "size" : 251
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/ec100cbc-1740-6749-b4ee-8bfdb9219ade/element/c77a09ec-f047-2d43-8541-7c02b61eedf2/click",
+      "time" : {
+        "start" : 1522792342442,
+        "stop" : 1522792344758,
+        "duration" : 2316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1db3e766b8918b0f",
+        "name" : "Response",
+        "source" : "1db3e766b8918b0f.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/ec100cbc-1740-6749-b4ee-8bfdb9219ade/url",
+      "time" : {
+        "start" : 1522792344762,
+        "stop" : 1522792344768,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68be3d202953f9a8",
+        "name" : "Response",
+        "source" : "68be3d202953f9a8.json",
+        "type" : "application/json",
+        "size" : 228
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e2becb993cc70c5f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522792261318,
+        "stop" : 1522792271291,
+        "duration" : 9973
+      }
+    }, {
+      "uid" : "19414b75bba29ff4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522792122879,
+        "stop" : 1522792132853,
+        "duration" : 9974
+      }
+    }, {
+      "uid" : "c3ad4e5f7371b1e1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522792066143,
+        "stop" : 1522792076110,
+        "duration" : 9967
+      }
+    }, {
+      "uid" : "26470f399a57a028",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522791985546,
+        "stop" : 1522791987691,
+        "duration" : 2145
+      }
+    }, {
+      "uid" : "69eea085cf78f5dc",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1522791953202,
+        "stop" : 1522791954602,
+        "duration" : 1400
+      }
+    }, {
+      "uid" : "617a942fab5082e9",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1522791933342,
+        "stop" : 1522791936018,
+        "duration" : 2676
+      }
+    }, {
+      "uid" : "38aecbf90d8d6625",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1522791901744,
+        "stop" : 1522791903471,
+        "duration" : 1727
+      }
+    }, {
+      "uid" : "662191880fc2dae2",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1522791780403,
+        "stop" : 1522791782050,
+        "duration" : 1647
+      }
+    }, {
+      "uid" : "6724303744d0146b",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'",
+      "time" : {
+        "start" : 1522791604579,
+        "stop" : 1522791606417,
+        "duration" : 1838
+      }
+    }, {
+      "uid" : "8ccff6611ecb5bbf",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1522791511503,
+        "stop" : 1522791511503,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b72314a3ca8193ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522791338030,
+        "stop" : 1522791338030,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8a19707c4d9c685a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522791297433,
+        "stop" : 1522791297434,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9e7d3c33a05d4994",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'",
+      "time" : {
+        "start" : 1522791218068,
+        "stop" : 1522791218070,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c57151412ad7d01c",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'",
+      "time" : {
+        "start" : 1522791191848,
+        "stop" : 1522791191850,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "706fe1be4a1135b3",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522791132458,
+        "stop" : 1522791132460,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b471b8c32619cbee",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522790644991,
+        "stop" : 1522790644994,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "dfda617cb9e42844",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522790607550,
+        "stop" : 1522790607552,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9c78d71f6aca3b46",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522790520261,
+        "stop" : 1522790520278,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "980a859b7e3ba044",
+      "status" : "broken",
+      "statusDetails" : "landing.purchase_link.waitForVisible is not a function",
+      "time" : {
+        "start" : 1522790493767,
+        "stop" : 1522790493767,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e8b3fdcdcf68bc3",
+      "status" : "broken",
+      "statusDetails" : "landing.purchase_link.waitForVisible is not a function",
+      "time" : {
+        "start" : 1522790330869,
+        "stop" : 1522790330870,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1a1c4155bf2b0599",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522790209452,
+        "stop" : 1522790209462,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "96862b8f11deccf3",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522790155775,
+        "stop" : 1522790155791,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "d397b75ad1d25478",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522790018527,
+        "stop" : 1522790018534,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "191ddfc42b5ff1f5",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522789977252,
+        "stop" : 1522789977263,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "17875b7d6df5f62a",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522789911144,
+        "stop" : 1522789914481,
+        "duration" : 3337
+      }
+    }, {
+      "uid" : "d658a03036fb2f6f",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522789777022,
+        "stop" : 1522789777023,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0f73f17785cc43a.json",
+  "parameterValues" : [ "firefox" ]
+}

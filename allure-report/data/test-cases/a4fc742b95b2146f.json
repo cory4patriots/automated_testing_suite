@@ -1,0 +1,189 @@
+{
+  "uid" : "a4fc742b95b2146f",
+  "name" : "Check the functionality of the home link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the home link",
+  "historyId" : "1cb20806c6b1597c5f233624ec369ba9",
+  "time" : {
+    "start" : 1522791191847,
+    "stop" : 1522791191848,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/url",
+      "time" : {
+        "start" : 1522791191847,
+        "stop" : 1522791191848,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c38d475b2dde25",
+        "name" : "Response",
+        "source" : "7c38d475b2dde25.json",
+        "type" : "application/json",
+        "size" : 201
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the home link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd1c09b71721e4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790607549,
+        "stop" : 1522790607550,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "386ac305249248e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790520261,
+        "stop" : 1522790520261,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f6fb6f4a0aa60335",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790493766,
+        "stop" : 1522790493766,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96579b88e5bc287e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790451659,
+        "stop" : 1522790451660,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d0995c7f66fed480",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790330868,
+        "stop" : 1522790330869,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "60612481489cd09d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790209451,
+        "stop" : 1522790209452,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f537372899fad302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790155775,
+        "stop" : 1522790155775,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "325373d0ccbd12d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522790018526,
+        "stop" : 1522790018526,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fa827ec28a2ebb10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522789977251,
+        "stop" : 1522789977252,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "35e45fd19ffbc4a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522789911143,
+        "stop" : 1522789911144,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "493b59dd06b1a002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522789777021,
+        "stop" : 1522789777022,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7d22562f54cb6c3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522789710745,
+        "stop" : 1522789710746,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b74a409fea362071",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522789675983,
+        "stop" : 1522789675984,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4fc742b95b2146f.json",
+  "parameterValues" : [ "firefox" ]
+}

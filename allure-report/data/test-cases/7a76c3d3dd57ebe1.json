@@ -1,0 +1,107 @@
+{
+  "uid" : "7a76c3d3dd57ebe1",
+  "name" : "Should Follow landing Page to Letter page",
+  "fullName" : "PPH Landing Page Test.Should Follow landing Page to Letter page",
+  "historyId" : "884254a6008501bead54d680db21f345",
+  "time" : {
+    "start" : 1522771934069,
+    "stop" : 1522771934071,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testClass",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Follow landing Page to Letter page"
+  }, {
+    "name" : "package",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d693656b1708481",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522771697557,
+        "stop" : 1522771697559,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f20540d58605a692",
+      "status" : "broken",
+      "statusDetails" : "landing.follow_letter_link is not a function",
+      "time" : {
+        "start" : 1522771521804,
+        "stop" : 1522771521808,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "6b7b957abe940094",
+      "status" : "broken",
+      "statusDetails" : "landing.follow_letter_link is not a function",
+      "time" : {
+        "start" : 1522771402439,
+        "stop" : 1522771402443,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "c64140c76559822a",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").",
+      "time" : {
+        "start" : 1522771283684,
+        "stop" : 1522771283750,
+        "duration" : 66
+      }
+    }, {
+      "uid" : "aa18cb96d91c3889",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").",
+      "time" : {
+        "start" : 1522771234553,
+        "stop" : 1522771234615,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "1479a5471115a6e6",
+      "status" : "broken",
+      "statusDetails" : "landing.follow_letter_link is not a function",
+      "time" : {
+        "start" : 1522771028254,
+        "stop" : 1522771028259,
+        "duration" : 5
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a76c3d3dd57ebe1.json",
+  "parameterValues" : [ "firefox" ]
+}

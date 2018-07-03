@@ -1,0 +1,101 @@
+{
+  "uid" : "990f6734ff62a323",
+  "name" : "\"before all\" hook",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.\"before all\" hook",
+  "historyId" : "ad00960a95456a3eed6abd6080544c59",
+  "time" : {
+    "start" : 1522865115631,
+    "stop" : 1522865116974,
+    "duration" : 1343
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/0997fc710d590efe3841cf92a800b865/url",
+      "time" : {
+        "start" : 1522865115636,
+        "stop" : 1522865116959,
+        "duration" : 1323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b995de486f13575",
+        "name" : "Request",
+        "source" : "6b995de486f13575.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "d2a7fc3edc3140b9",
+        "name" : "Response",
+        "source" : "d2a7fc3edc3140b9.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/0997fc710d590efe3841cf92a800b865/url",
+      "time" : {
+        "start" : 1522865116964,
+        "stop" : 1522865116972,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adf773330db213",
+        "name" : "Response",
+        "source" : "adf773330db213.json",
+        "type" : "application/json",
+        "size" : 130
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "990f6734ff62a323.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,333 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "PPH Landing Page Test",
+    "children" : [ {
+      "name" : "Should Follow landing Page to Letter page",
+      "uid" : "7a76c3d3dd57ebe1",
+      "parentUid" : "acb1a19766591d4beb190ad78ab7059c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522771934069,
+        "stop" : 1522771934071,
+        "duration" : 2
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Should Follow landing Page to video page",
+      "uid" : "44ce0630ece368db",
+      "parentUid" : "acb1a19766591d4beb190ad78ab7059c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774648926,
+        "stop" : 1522774648950,
+        "duration" : 24
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    } ],
+    "uid" : "acb1a19766591d4beb190ad78ab7059c"
+  }, {
+    "name" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test",
+    "children" : [ {
+      "name" : "Verify PPH Letter Page URL",
+      "uid" : "c0816d43682e627",
+      "parentUid" : "fd3278c477d4f35844bda30d5e9444c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522783798893,
+        "stop" : 1522783800125,
+        "duration" : 1232
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Verify PPH landing page URL",
+      "uid" : "bd7e6fdf235c39f6",
+      "parentUid" : "fd3278c477d4f35844bda30d5e9444c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522784262138,
+        "stop" : 1522784263217,
+        "duration" : 1079
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Navbar should be visiable on landing page",
+      "uid" : "504ba1c938807776",
+      "parentUid" : "fd3278c477d4f35844bda30d5e9444c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522786251542,
+        "stop" : 1522786251638,
+        "duration" : 96
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Check the functionality of the purchase link",
+      "uid" : "e65482a586dcf80a",
+      "parentUid" : "fd3278c477d4f35844bda30d5e9444c0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1522789710297,
+        "stop" : 1522789710298,
+        "duration" : 1
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "it opens the checkout page and verifies page url",
+      "uid" : "560b843d59d8978a",
+      "parentUid" : "fd3278c477d4f35844bda30d5e9444c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523308164536,
+        "stop" : 1523308166214,
+        "duration" : 1678
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "739cf899abf27de3",
+      "parentUid" : "fd3278c477d4f35844bda30d5e9444c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523376037715,
+        "stop" : 1523376038374,
+        "duration" : 659
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fd3278c477d4f35844bda30d5e9444c0"
+  }, {
+    "name" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy home Link",
+    "children" : [ {
+      "name" : "guarantees should be visiable on landing page",
+      "uid" : "428b7ebf5fe53c45",
+      "parentUid" : "4fbe99fd026adfe2e0450c1e1b3c8878",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522788506937,
+        "stop" : 1522788506939,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    } ],
+    "uid" : "4fbe99fd026adfe2e0450c1e1b3c8878"
+  }, {
+    "name" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work",
+    "children" : [ {
+      "name" : "Check the functionality of the home link",
+      "uid" : "a4fc742b95b2146f",
+      "parentUid" : "6a4771d964e618971fe04d531f6faeca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522791191847,
+        "stop" : 1522791191848,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Check the functionality of the purchase link",
+      "uid" : "c0f73f17785cc43a",
+      "parentUid" : "6a4771d964e618971fe04d531f6faeca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522792342441,
+        "stop" : 1522792369231,
+        "duration" : 26790
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Check the functionality of the purchase link",
+      "uid" : "f0f1440c59834c4c",
+      "parentUid" : "6a4771d964e618971fe04d531f6faeca",
+      "status" : "failed",
+      "time" : {
+        "start" : 1523307772213,
+        "stop" : 1523307772258,
+        "duration" : 45
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6a4771d964e618971fe04d531f6faeca"
+  }, {
+    "name" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page",
+    "children" : [ {
+      "name" : "Navbar should be visiable on landing page",
+      "uid" : "f7349bd2b224c439",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522792342026,
+        "stop" : 1522792342089,
+        "duration" : 63
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Footer should be visiable on landing page",
+      "uid" : "5697299ad5fa5a3f",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522792342089,
+        "stop" : 1522792342172,
+        "duration" : 83
+      },
+      "flaky" : true,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "testimonial should be visiable on landing page",
+      "uid" : "e8bfd05ef772d8fa",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522792342172,
+        "stop" : 1522792342247,
+        "duration" : 75
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "blog should be visiable on landing page",
+      "uid" : "9f25eff8ac567843",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522792342247,
+        "stop" : 1522792342330,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "guarantees should be visiable on landing page",
+      "uid" : "80d059f58cc30a53",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522792342330,
+        "stop" : 1522792342405,
+        "duration" : 75
+      },
+      "flaky" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Navbar should be visiable on landing page",
+      "uid" : "67f9cd51a788c2dd",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523307771814,
+        "stop" : 1523307771895,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Footer should be visiable on landing page",
+      "uid" : "735055725ecbe2cc",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523307771896,
+        "stop" : 1523307771976,
+        "duration" : 80
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "testimonial should be visiable on landing page",
+      "uid" : "1e76654f304953d",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523307771976,
+        "stop" : 1523307772041,
+        "duration" : 65
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "blog should be visiable on landing page",
+      "uid" : "b3c76836b5b5fabd",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523307772041,
+        "stop" : 1523307772111,
+        "duration" : 70
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "guarantees should be visiable on landing page",
+      "uid" : "10507366d9124e4e",
+      "parentUid" : "ad682714993c50e2c1cef80384048613",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523307772111,
+        "stop" : 1523307772175,
+        "duration" : 64
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "ad682714993c50e2c1cef80384048613"
+  }, {
+    "name" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page",
+    "children" : [ {
+      "name" : "Should let you log in with valid credentials",
+      "uid" : "2634ae11f8e381fb",
+      "parentUid" : "1f4fd685b2f9d9c3143e95a602dbcbd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523371801286,
+        "stop" : 1523371805908,
+        "duration" : 4622
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should get screen shots of navbar",
+      "uid" : "197da4feb944a37b",
+      "parentUid" : "1f4fd685b2f9d9c3143e95a602dbcbd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523374498379,
+        "stop" : 1523374501122,
+        "duration" : 2743
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "1f4fd685b2f9d9c3143e95a602dbcbd6"
+  }, {
+    "name" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test visual Regression of NavBar",
+    "children" : [ {
+      "name" : "Should get screen shots of navbar",
+      "uid" : "189e2d57c696794d",
+      "parentUid" : "944952bf0bd8774f89ddb32ad7fa6c3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523376038375,
+        "stop" : 1523376043277,
+        "duration" : 4902
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "944952bf0bd8774f89ddb32ad7fa6c3b"
+  } ]
+}

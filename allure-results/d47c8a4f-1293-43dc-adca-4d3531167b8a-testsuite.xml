@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522791191847' stop='1522791191851'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</title>
+    <test-cases>
+        <test-case start='1522791191847' status='passed' stop='1522791191848'>
+            <name>Check the functionality of the home link</name>
+            <title>Check the functionality of the home link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522791191847' status='passed' stop='1522791191848'>
+                    <name>GET /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/url</name>
+                    <title>GET /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/url</title>
+                    <attachments>
+                        <attachment title='Response' source='57855bbe-1f42-4d3f-b3f7-6f763afe4f50-attachment.json' type='application/json' size='201'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1522791191848' status='failed' stop='1522791191850'>
+            <name>Check the functionality of the purchase link</name>
+            <title>Check the functionality of the purchase link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522791191849' status='passed' stop='1522791191850'>
+                    <name>POST /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/elements</name>
+                    <title>POST /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='38f4f4a0-919d-4d09-acd4-3f5b94e2a5c8-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='e847155f-4e14-4c67-945e-c8879b414788-attachment.json' type='application/json' size='275'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522791191850' status='passed' stop='1522791191850'>
+                    <name>GET /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/url</name>
+                    <title>GET /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/url</title>
+                    <attachments>
+                        <attachment title='Response' source='daafe52a-de33-4071-a057-1473ad299d20-attachment.json' type='application/json' size='200'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'</message>
+                <stack-trace>AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:53:14)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

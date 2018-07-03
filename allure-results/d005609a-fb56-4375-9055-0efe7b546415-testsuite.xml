@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1523309588716' stop='1523309588868'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page</title>
+    <test-cases>
+        <test-case start='1523309588716' status='broken' stop='1523309588867'>
+            <name>Should let you log in with valid credentials</name>
+            <title>Should let you log in with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1523309588719' status='passed' stop='1523309588734'>
+                    <name>POST /wd/hub/session/bf16074fa226ade6b6e589811eb32f09/elements</name>
+                    <title>POST /wd/hub/session/bf16074fa226ade6b6e589811eb32f09/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6e995029-f3b6-4c10-b26d-c013d12983f8-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='4dd0439f-fb66-4069-b0dd-ec46d129b44e-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523309588735' status='passed' stop='1523309588756'>
+                    <name>POST /wd/hub/session/bf16074fa226ade6b6e589811eb32f09/element/0.21620595840964696-1/clear</name>
+                    <title>POST /wd/hub/session/bf16074fa226ade6b6e589811eb32f09/element/0.21620595840964696-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='f4b3978f-d338-4f90-ba5b-d9409f9116ff-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523309588756' status='passed' stop='1523309588863'>
+                    <name>POST /wd/hub/session/bf16074fa226ade6b6e589811eb32f09/element/0.21620595840964696-1/value</name>
+                    <title>POST /wd/hub/session/bf16074fa226ade6b6e589811eb32f09/element/0.21620595840964696-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='4eb898ac-56f6-4f21-9220-048b91924ec0-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='8e6a71a6-16d9-4e0f-8380-09004cd3a1ea-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>login.firstName is not a function</message>
+                <stack-trace>TypeError: login.firstName is not a function
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js:28:13)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

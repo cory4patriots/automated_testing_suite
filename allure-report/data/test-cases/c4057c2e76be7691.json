@@ -1,0 +1,206 @@
+{
+  "uid" : "c4057c2e76be7691",
+  "name" : "blog should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page.blog should be visiable on landing page",
+  "historyId" : "18eecc0260dcc500e1e394752f47d556",
+  "time" : {
+    "start" : 1523307537149,
+    "stop" : 1523307537221,
+    "duration" : 72
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e61d681ff0ba68166a804f7bbdc8088d/elements",
+      "time" : {
+        "start" : 1523307537154,
+        "stop" : 1523307537166,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12f120bf94dc15e9",
+        "name" : "Request",
+        "source" : "12f120bf94dc15e9.json",
+        "type" : "application/json",
+        "size" : 133
+      }, {
+        "uid" : "aa6c568ffa18783e",
+        "name" : "Response",
+        "source" : "aa6c568ffa18783e.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/e61d681ff0ba68166a804f7bbdc8088d/element/0.6431675757013975-4/displayed",
+      "time" : {
+        "start" : 1523307537166,
+        "stop" : 1523307537179,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "186460893f3f24a9",
+        "name" : "Response",
+        "source" : "186460893f3f24a9.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/e61d681ff0ba68166a804f7bbdc8088d/elements",
+      "time" : {
+        "start" : 1523307537183,
+        "stop" : 1523307537192,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "214e46260a5f2451",
+        "name" : "Request",
+        "source" : "214e46260a5f2451.json",
+        "type" : "application/json",
+        "size" : 133
+      }, {
+        "uid" : "1a58db29983cd55b",
+        "name" : "Response",
+        "source" : "1a58db29983cd55b.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/e61d681ff0ba68166a804f7bbdc8088d/element/0.6431675757013975-4/displayed",
+      "time" : {
+        "start" : 1523307537192,
+        "stop" : 1523307537200,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19bc8e3ac0231588",
+        "name" : "Response",
+        "source" : "19bc8e3ac0231588.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/e61d681ff0ba68166a804f7bbdc8088d/elements",
+      "time" : {
+        "start" : 1523307537202,
+        "stop" : 1523307537211,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "195b48e7b4603e13",
+        "name" : "Request",
+        "source" : "195b48e7b4603e13.json",
+        "type" : "application/json",
+        "size" : 133
+      }, {
+        "uid" : "59880f4ab9338931",
+        "name" : "Response",
+        "source" : "59880f4ab9338931.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/e61d681ff0ba68166a804f7bbdc8088d/element/0.6431675757013975-4/displayed",
+      "time" : {
+        "start" : 1523307537211,
+        "stop" : 1523307537218,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26264a90b1efaa64",
+        "name" : "Response",
+        "source" : "26264a90b1efaa64.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page"
+  }, {
+    "name" : "testMethod",
+    "value" : "blog should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4057c2e76be7691.json",
+  "parameterValues" : [ "chrome" ]
+}

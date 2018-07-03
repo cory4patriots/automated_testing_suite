@@ -1,0 +1,93 @@
+{
+  "uid" : "88e50082595c3585",
+  "name" : "Should let you log in with valid credentials",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page.Should let you log in with valid credentials",
+  "historyId" : "eba8341b67e961e3609f18db07753add",
+  "time" : {
+    "start" : 1523309406074,
+    "stop" : 1523309406097,
+    "duration" : 23
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "firstName is not defined",
+  "statusTrace" : "ReferenceError: firstName is not defined\n                    at Page.get (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/pages/login.page.js:12:45)\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js:28:12)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "firstName is not defined",
+    "statusTrace" : "ReferenceError: firstName is not defined\n                    at Page.get (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/pages/login.page.js:12:45)\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js:28:12)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/baaa3cdcc02667ed5883c335042138c2/element",
+      "time" : {
+        "start" : 1523309406077,
+        "stop" : 1523309406092,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb44fcc21dcb932e",
+        "name" : "Request",
+        "source" : "cb44fcc21dcb932e.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "75cc0ea8ed9005c4",
+        "name" : "Response",
+        "source" : "75cc0ea8ed9005c4.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should let you log in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88e50082595c3585.json",
+  "parameterValues" : [ "chrome" ]
+}

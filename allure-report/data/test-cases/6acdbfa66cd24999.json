@@ -1,0 +1,110 @@
+{
+  "uid" : "6acdbfa66cd24999",
+  "name" : "Verify PPH Letter Page URL",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Verify PPH Letter Page URL",
+  "historyId" : "5e0c1b232b306b7375d2eb24f37d0460",
+  "time" : {
+    "start" : 1522776228098,
+    "stop" : 1522776229251,
+    "duration" : 1153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/c1508b1b-5a5f-654a-a7f7-1d3d06524aa3/url",
+      "time" : {
+        "start" : 1522776228102,
+        "stop" : 1522776229212,
+        "duration" : 1110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d5dc21ea0ef062b",
+        "name" : "Request",
+        "source" : "8d5dc21ea0ef062b.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "cb3c844b1aad6e98",
+        "name" : "Response",
+        "source" : "cb3c844b1aad6e98.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/c1508b1b-5a5f-654a-a7f7-1d3d06524aa3/url",
+      "time" : {
+        "start" : 1522776229250,
+        "stop" : 1522776229250,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ad742eb8a6753b6",
+        "name" : "Response",
+        "source" : "6ad742eb8a6753b6.json",
+        "type" : "application/json",
+        "size" : 198
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify PPH Letter Page URL"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6acdbfa66cd24999.json",
+  "parameterValues" : [ "firefox" ]
+}

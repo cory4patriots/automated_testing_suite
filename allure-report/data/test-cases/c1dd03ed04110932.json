@@ -1,0 +1,83 @@
+{
+  "uid" : "c1dd03ed04110932",
+  "name" : "Should Follow landing Page to video page",
+  "fullName" : "PPH Landing Page Test.Should Follow landing Page to video page",
+  "historyId" : "1759494e6aadb39c9a79749f7ad0b81b",
+  "time" : {
+    "start" : 1522774585102,
+    "stop" : 1522774585116,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/7fc6cf78-7bf0-a247-bdc5-ffb0fc56f79a/url",
+      "time" : {
+        "start" : 1522774585105,
+        "stop" : 1522774585113,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74628e698d193b98",
+        "name" : "Response",
+        "source" : "74628e698d193b98.json",
+        "type" : "application/json",
+        "size" : 171
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testClass",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Follow landing Page to video page"
+  }, {
+    "name" : "package",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1dd03ed04110932.json",
+  "parameterValues" : [ "firefox" ]
+}

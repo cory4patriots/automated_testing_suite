@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522792032791' stop='1522792034109'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522792032792' status='failed' stop='1522792034109'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1522792032794' status='passed' stop='1522792034068'>
+                    <name>POST /wd/hub/session/75f8e874-42ec-804b-ad3d-b8c0db63bda5/url</name>
+                    <title>POST /wd/hub/session/75f8e874-42ec-804b-ad3d-b8c0db63bda5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4be3f607-a7d9-4bc9-b2bd-d5683c873ea6-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='32da5538-d11f-484a-ad73-f73100801482-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522792034108' status='passed' stop='1522792034108'>
+                    <name>GET /wd/hub/session/75f8e874-42ec-804b-ad3d-b8c0db63bda5/url</name>
+                    <title>GET /wd/hub/session/75f8e874-42ec-804b-ad3d-b8c0db63bda5/url</title>
+                    <attachments>
+                        <attachment title='Response' source='8f04e084-092c-444a-9224-5f9c0b3ff342-attachment.json' type='application/json' size='201'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/index.php?AFID=MINISITE'</message>
+                <stack-trace>AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/index.php?AFID=MINISITE'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:15:12)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

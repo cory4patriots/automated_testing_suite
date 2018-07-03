@@ -1,0 +1,131 @@
+{
+  "uid" : "ab3871f39f2e6d81",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "943f68f9c8ff8c4adbf50e96da7f6491",
+  "time" : {
+    "start" : 1523051396547,
+    "stop" : 1523051403018,
+    "duration" : 6471
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/9d04a8f085d1c6b4f2157b4ba7297516/element",
+      "time" : {
+        "start" : 1523051396548,
+        "stop" : 1523051396548,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d8933fbfc09b048",
+        "name" : "Request",
+        "source" : "2d8933fbfc09b048.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "874975eff61584db",
+        "name" : "Response",
+        "source" : "874975eff61584db.json",
+        "type" : "application/json",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/9d04a8f085d1c6b4f2157b4ba7297516/element/0.961963419319851-6/click",
+      "time" : {
+        "start" : 1523051396548,
+        "stop" : 1523051396582,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d925e29259549a70",
+        "name" : "Response",
+        "source" : "d925e29259549a70.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/9d04a8f085d1c6b4f2157b4ba7297516/url",
+      "time" : {
+        "start" : 1523051403007,
+        "stop" : 1523051403015,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "621ca96a8b0c1d83",
+        "name" : "Response",
+        "source" : "621ca96a8b0c1d83.json",
+        "type" : "application/json",
+        "size" : 157
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab3871f39f2e6d81.json",
+  "parameterValues" : [ "chrome" ]
+}

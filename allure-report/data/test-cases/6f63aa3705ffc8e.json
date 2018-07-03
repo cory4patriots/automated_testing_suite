@@ -1,0 +1,206 @@
+{
+  "uid" : "6f63aa3705ffc8e",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page.Navbar should be visiable on landing page",
+  "historyId" : "3426f2743a5b5466583a8266f5e7963f",
+  "time" : {
+    "start" : 1522791132033,
+    "stop" : 1522791132105,
+    "duration" : 72
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b779763d-0d50-5a4e-ac2f-ada248a2b518/elements",
+      "time" : {
+        "start" : 1522791132033,
+        "stop" : 1522791132035,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fe54f6cef85fcd9",
+        "name" : "Request",
+        "source" : "8fe54f6cef85fcd9.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "dd9e060919bcd1bc",
+        "name" : "Response",
+        "source" : "dd9e060919bcd1bc.json",
+        "type" : "application/json",
+        "size" : 274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/b779763d-0d50-5a4e-ac2f-ada248a2b518/element/1fe87506-197d-1940-85b8-1762618fbc9d/displayed",
+      "time" : {
+        "start" : 1522791132035,
+        "stop" : 1522791132047,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9a39388f28df9553",
+        "name" : "Response",
+        "source" : "9a39388f28df9553.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/b779763d-0d50-5a4e-ac2f-ada248a2b518/elements",
+      "time" : {
+        "start" : 1522791132052,
+        "stop" : 1522791132060,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57c8c69fc0fd3f8",
+        "name" : "Request",
+        "source" : "57c8c69fc0fd3f8.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "11bf66f4a5639543",
+        "name" : "Response",
+        "source" : "11bf66f4a5639543.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/b779763d-0d50-5a4e-ac2f-ada248a2b518/element/1fe87506-197d-1940-85b8-1762618fbc9d/displayed",
+      "time" : {
+        "start" : 1522791132061,
+        "stop" : 1522791132076,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e4004f5704de04c",
+        "name" : "Response",
+        "source" : "3e4004f5704de04c.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/b779763d-0d50-5a4e-ac2f-ada248a2b518/elements",
+      "time" : {
+        "start" : 1522791132079,
+        "stop" : 1522791132086,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff552d2c86210f59",
+        "name" : "Request",
+        "source" : "ff552d2c86210f59.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "6accd983975d6620",
+        "name" : "Response",
+        "source" : "6accd983975d6620.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/b779763d-0d50-5a4e-ac2f-ada248a2b518/element/1fe87506-197d-1940-85b8-1762618fbc9d/displayed",
+      "time" : {
+        "start" : 1522791132086,
+        "stop" : 1522791132102,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e58db8831b62717b",
+        "name" : "Response",
+        "source" : "e58db8831b62717b.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy all major elems on landing page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f63aa3705ffc8e.json",
+  "parameterValues" : [ "firefox" ]
+}

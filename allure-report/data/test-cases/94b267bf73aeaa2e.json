@@ -1,0 +1,115 @@
+{
+  "uid" : "94b267bf73aeaa2e",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522785441052,
+    "stop" : 1522785441397,
+    "duration" : 345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"landing.nav_bar_elem\") still not visible after 0ms",
+  "statusTrace" : "Error: element (\"landing.nav_bar_elem\") still not visible after 0ms\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:47)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(\"landing.nav_bar_elem\") - isVisible.js:54:17\n                    at isVisible(\"landing.nav_bar_elem\") - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"landing.nav_bar_elem\") still not visible after 0ms",
+    "statusTrace" : "Error: element (\"landing.nav_bar_elem\") still not visible after 0ms\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:47)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(\"landing.nav_bar_elem\") - isVisible.js:54:17\n                    at isVisible(\"landing.nav_bar_elem\") - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d6875096-8ca7-d447-8290-00ad02757e2c/elements",
+      "time" : {
+        "start" : 1522785441053,
+        "stop" : 1522785441054,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b2c09a9f5e1c07b",
+        "name" : "Request",
+        "source" : "2b2c09a9f5e1c07b.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "f2eff6cfb5671b03",
+        "name" : "Response",
+        "source" : "f2eff6cfb5671b03.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/d6875096-8ca7-d447-8290-00ad02757e2c/screenshot",
+      "time" : {
+        "start" : 1522785441054,
+        "stop" : 1522785441397,
+        "duration" : 343
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"landing.nav_bar_elem\") still not visible after 0ms\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:47)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(\"landing.nav_bar_elem\") - isVisible.js:54:17\n                    at isVisible(\"landing.nav_bar_elem\") - waitForVisible.js:73:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae61949650b25d75",
+        "name" : "Screenshot",
+        "source" : "ae61949650b25d75.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94b267bf73aeaa2e.json",
+  "parameterValues" : [ "firefox" ]
+}

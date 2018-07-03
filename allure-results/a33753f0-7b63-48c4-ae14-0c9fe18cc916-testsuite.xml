@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522863921016' stop='1522863922066'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522863921016' status='failed' stop='1522863922066'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1522863921018' status='passed' stop='1522863922049'>
+                    <name>POST /wd/hub/session/e8b9789095a768b70b5525174f2164c5/url</name>
+                    <title>POST /wd/hub/session/e8b9789095a768b70b5525174f2164c5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fc5d54d8-f752-49ef-9b13-7d122f73d00e-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='589beeb1-02d7-4bc9-936c-b12daf33f2e8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522863922053' status='passed' stop='1522863922061'>
+                    <name>GET /wd/hub/session/e8b9789095a768b70b5525174f2164c5/url</name>
+                    <title>GET /wd/hub/session/e8b9789095a768b70b5525174f2164c5/url</title>
+                    <attachments>
+                        <attachment title='Response' source='df2004cc-d4d1-48fe-b15c-1325e13eef12-attachment.json' type='application/json' size='133'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'https://secure.patriotpowerhub.com/index.php' == 'https://pph.stage.4patriots.net/index.php'</message>
+                <stack-trace>AssertionError: 'https://secure.patriotpowerhub.com/index.php' == 'https://pph.stage.4patriots.net/index.php'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:15:12)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

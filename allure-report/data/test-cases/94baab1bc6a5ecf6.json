@@ -1,0 +1,54 @@
+{
+  "uid" : "94baab1bc6a5ecf6",
+  "name" : "Should Follow landing Page to video page",
+  "fullName" : "PPH Landing Page Test.Should Follow landing Page to video page",
+  "historyId" : "1759494e6aadb39c9a79749f7ad0b81b",
+  "time" : {
+    "start" : 1522774380952,
+    "stop" : 1522774390960,
+    "duration" : 10008
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.\n                    at Timeout.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/mocha/lib/runnable.js:255:19)\n                    at ontimeout (timers.js:386:14)\n                    at tryOnTimeout (timers.js:250:5)\n                    at Timer.listOnTimeout (timers.js:214:5)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testClass",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Follow landing Page to video page"
+  }, {
+    "name" : "package",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94baab1bc6a5ecf6.json",
+  "parameterValues" : [ "firefox" ]
+}

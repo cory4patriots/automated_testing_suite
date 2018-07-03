@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522782297238' stop='1522782298347'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522782297238' status='passed' stop='1522782298347'>
+            <name>Verify PPH Letter Page URL</name>
+            <title>Verify PPH Letter Page URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522782297241' status='passed' stop='1522782298309'>
+                    <name>POST /wd/hub/session/12c71978-1cb8-764e-8a82-d6d87a6143e5/url</name>
+                    <title>POST /wd/hub/session/12c71978-1cb8-764e-8a82-d6d87a6143e5/url</title>
+                    <attachments>
+                        <attachment title='Request' source='337b6bc7-d23f-4422-81aa-31be43f05f8d-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='2fb30fd8-194a-4100-9cdd-4bf0baf1c4cb-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

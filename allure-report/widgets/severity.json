@@ -1,0 +1,251 @@
+[ {
+  "uid" : "735055725ecbe2cc",
+  "name" : "Footer should be visiable on landing page",
+  "time" : {
+    "start" : 1523307771896,
+    "stop" : 1523307771976,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67f9cd51a788c2dd",
+  "name" : "Navbar should be visiable on landing page",
+  "time" : {
+    "start" : 1523307771814,
+    "stop" : 1523307771895,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e65482a586dcf80a",
+  "name" : "Check the functionality of the purchase link",
+  "time" : {
+    "start" : 1522789710297,
+    "stop" : 1522789710298,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4fc742b95b2146f",
+  "name" : "Check the functionality of the home link",
+  "time" : {
+    "start" : 1522791191847,
+    "stop" : 1522791191848,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0816d43682e627",
+  "name" : "Verify PPH Letter Page URL",
+  "time" : {
+    "start" : 1522783798893,
+    "stop" : 1522783800125,
+    "duration" : 1232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "189e2d57c696794d",
+  "name" : "Should get screen shots of navbar",
+  "time" : {
+    "start" : 1523376038375,
+    "stop" : 1523376043277,
+    "duration" : 4902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2634ae11f8e381fb",
+  "name" : "Should let you log in with valid credentials",
+  "time" : {
+    "start" : 1523371801286,
+    "stop" : 1523371805908,
+    "duration" : 4622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "197da4feb944a37b",
+  "name" : "Should get screen shots of navbar",
+  "time" : {
+    "start" : 1523374498379,
+    "stop" : 1523374501122,
+    "duration" : 2743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd7e6fdf235c39f6",
+  "name" : "Verify PPH landing page URL",
+  "time" : {
+    "start" : 1522784262138,
+    "stop" : 1522784263217,
+    "duration" : 1079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "504ba1c938807776",
+  "name" : "Navbar should be visiable on landing page",
+  "time" : {
+    "start" : 1522786251542,
+    "stop" : 1522786251638,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80d059f58cc30a53",
+  "name" : "guarantees should be visiable on landing page",
+  "time" : {
+    "start" : 1522792342330,
+    "stop" : 1522792342405,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "739cf899abf27de3",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1523376037715,
+    "stop" : 1523376038374,
+    "duration" : 659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3c76836b5b5fabd",
+  "name" : "blog should be visiable on landing page",
+  "time" : {
+    "start" : 1523307772041,
+    "stop" : 1523307772111,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a76c3d3dd57ebe1",
+  "name" : "Should Follow landing Page to Letter page",
+  "time" : {
+    "start" : 1522771934069,
+    "stop" : 1522771934071,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f25eff8ac567843",
+  "name" : "blog should be visiable on landing page",
+  "time" : {
+    "start" : 1522792342247,
+    "stop" : 1522792342330,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8bfd05ef772d8fa",
+  "name" : "testimonial should be visiable on landing page",
+  "time" : {
+    "start" : 1522792342172,
+    "stop" : 1522792342247,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "560b843d59d8978a",
+  "name" : "it opens the checkout page and verifies page url",
+  "time" : {
+    "start" : 1523308164536,
+    "stop" : 1523308166214,
+    "duration" : 1678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "428b7ebf5fe53c45",
+  "name" : "guarantees should be visiable on landing page",
+  "time" : {
+    "start" : 1522788506937,
+    "stop" : 1522788506939,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0f1440c59834c4c",
+  "name" : "Check the functionality of the purchase link",
+  "time" : {
+    "start" : 1523307772213,
+    "stop" : 1523307772258,
+    "duration" : 45
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "44ce0630ece368db",
+  "name" : "Should Follow landing Page to video page",
+  "time" : {
+    "start" : 1522774648926,
+    "stop" : 1522774648950,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5697299ad5fa5a3f",
+  "name" : "Footer should be visiable on landing page",
+  "time" : {
+    "start" : 1522792342089,
+    "stop" : 1522792342172,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0f73f17785cc43a",
+  "name" : "Check the functionality of the purchase link",
+  "time" : {
+    "start" : 1522792342441,
+    "stop" : 1522792369231,
+    "duration" : 26790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e76654f304953d",
+  "name" : "testimonial should be visiable on landing page",
+  "time" : {
+    "start" : 1523307771976,
+    "stop" : 1523307772041,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10507366d9124e4e",
+  "name" : "guarantees should be visiable on landing page",
+  "time" : {
+    "start" : 1523307772111,
+    "stop" : 1523307772175,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7349bd2b224c439",
+  "name" : "Navbar should be visiable on landing page",
+  "time" : {
+    "start" : 1522792342026,
+    "stop" : 1522792342089,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

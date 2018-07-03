@@ -1,0 +1,227 @@
+{
+  "uid" : "f0f1440c59834c4c",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "943f68f9c8ff8c4adbf50e96da7f6491",
+  "time" : {
+    "start" : 1523307772213,
+    "stop" : 1523307772258,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+  "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/lander.test.js:44:14)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+    "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/lander.test.js:44:14)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/8d0a4789725c11e1f67c2c20f121a9f9/element",
+      "time" : {
+        "start" : 1523307772214,
+        "stop" : 1523307772214,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62170a902cce0a8c",
+        "name" : "Request",
+        "source" : "62170a902cce0a8c.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "81f4d3553f5e2178",
+        "name" : "Response",
+        "source" : "81f4d3553f5e2178.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/8d0a4789725c11e1f67c2c20f121a9f9/element/0.6861117094404572-6/click",
+      "time" : {
+        "start" : 1523307772214,
+        "stop" : 1523307772244,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c453d227d279b28f",
+        "name" : "Response",
+        "source" : "c453d227d279b28f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/8d0a4789725c11e1f67c2c20f121a9f9/url",
+      "time" : {
+        "start" : 1523307772248,
+        "stop" : 1523307772253,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e24c495edd50e651",
+        "name" : "Response",
+        "source" : "e24c495edd50e651.json",
+        "type" : "application/json",
+        "size" : 130
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "963b4f30a521e18d",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1523307621819,
+        "stop" : 1523307623209,
+        "duration" : 1390
+      }
+    }, {
+      "uid" : "e28310c441dbd816",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1523307561276,
+        "stop" : 1523307561315,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "5f16e54b518823af",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1523307537326,
+        "stop" : 1523307537364,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "ea8623aabdd1a442",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523305005841,
+        "stop" : 1523305009714,
+        "duration" : 3873
+      }
+    }, {
+      "uid" : "f643a544aa53d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523285307733,
+        "stop" : 1523285314790,
+        "duration" : 7057
+      }
+    }, {
+      "uid" : "ab3871f39f2e6d81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1523051396547,
+        "stop" : 1523051403018,
+        "duration" : 6471
+      }
+    }, {
+      "uid" : "5cea6283d893333a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522865178673,
+        "stop" : 1522865212420,
+        "duration" : 33747
+      }
+    }, {
+      "uid" : "bb7463be8f3f9db3",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522865117391,
+        "stop" : 1522865127361,
+        "duration" : 9970
+      }
+    }, {
+      "uid" : "4ca2bd6f1fc638ef",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "time" : {
+        "start" : 1522864955647,
+        "stop" : 1522864955684,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "2bc04866ee5005a4",
+      "status" : "failed",
+      "statusDetails" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+      "time" : {
+        "start" : 1522864120268,
+        "stop" : 1522864120321,
+        "duration" : 53
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f0f1440c59834c4c.json",
+  "parameterValues" : [ "chrome" ]
+}

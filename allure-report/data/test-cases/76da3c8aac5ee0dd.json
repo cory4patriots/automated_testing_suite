@@ -1,0 +1,52 @@
+{
+  "uid" : "76da3c8aac5ee0dd",
+  "name" : "Should Follow landing Page to video page",
+  "fullName" : "PPH Landing Page Test.Should Follow landing Page to video page",
+  "historyId" : "1759494e6aadb39c9a79749f7ad0b81b",
+  "time" : {
+    "start" : 1522773023911,
+    "stop" : 1522773023913,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testClass",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Follow landing Page to video page"
+  }, {
+    "name" : "package",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76da3c8aac5ee0dd.json",
+  "parameterValues" : [ "firefox" ]
+}

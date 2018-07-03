@@ -1,0 +1,88 @@
+{
+  "uid" : "e5f4f69fbdc87a1d",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522786062253,
+    "stop" : 1522786062593,
+    "duration" : 340
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "selector needs to be typeof `string`",
+  "statusTrace" : "Error: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:35)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at element(body > div.navbar.navbar-default) - at Page.get (pages/home.page.js:47:22)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selector needs to be typeof `string`",
+    "statusTrace" : "Error: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:35)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at element(body > div.navbar.navbar-default) - at Page.get (pages/home.page.js:47:22)",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/4ded8500-e59c-4540-b5a3-1566b609f420/screenshot",
+      "time" : {
+        "start" : 1522786062254,
+        "stop" : 1522786062593,
+        "duration" : 339
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:35)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at element(body > div.navbar.navbar-default) - at Page.get (pages/home.page.js:47:22)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "475be21587f8afa8",
+        "name" : "Screenshot",
+        "source" : "475be21587f8afa8.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5f4f69fbdc87a1d.json",
+  "parameterValues" : [ "firefox" ]
+}

@@ -1,0 +1,135 @@
+{
+  "uid" : "38aecbf90d8d6625",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "3d56c67584de8ed9ee19e4a33d05fd97",
+  "time" : {
+    "start" : 1522791901744,
+    "stop" : 1522791903471,
+    "duration" : 1727
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'",
+  "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:45:14)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'",
+    "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE' == 'https://ppg.stage.4patriots.net/video/ppg/index.php?AFID=MINISITE'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:45:14)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/element",
+      "time" : {
+        "start" : 1522791901744,
+        "stop" : 1522791901745,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69f1db0b4c98248e",
+        "name" : "Request",
+        "source" : "69f1db0b4c98248e.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "4fc5ca48554640c",
+        "name" : "Response",
+        "source" : "4fc5ca48554640c.json",
+        "type" : "application/json",
+        "size" : 251
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/element/85430ea1-ede1-9e40-a234-52c27867e2dc/click",
+      "time" : {
+        "start" : 1522791901745,
+        "stop" : 1522791903458,
+        "duration" : 1713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9868c38de5ff0805",
+        "name" : "Response",
+        "source" : "9868c38de5ff0805.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/url",
+      "time" : {
+        "start" : 1522791903462,
+        "stop" : 1522791903466,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77e2ecfd13d0d046",
+        "name" : "Response",
+        "source" : "77e2ecfd13d0d046.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38aecbf90d8d6625.json",
+  "parameterValues" : [ "firefox" ]
+}

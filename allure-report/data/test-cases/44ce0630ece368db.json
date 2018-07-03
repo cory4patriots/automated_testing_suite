@@ -1,0 +1,182 @@
+{
+  "uid" : "44ce0630ece368db",
+  "name" : "Should Follow landing Page to video page",
+  "fullName" : "PPH Landing Page Test.Should Follow landing Page to video page",
+  "historyId" : "1759494e6aadb39c9a79749f7ad0b81b",
+  "time" : {
+    "start" : 1522774648926,
+    "stop" : 1522774648950,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/cd03beec-74c2-b449-b5a1-321612032b40/url",
+      "time" : {
+        "start" : 1522774648930,
+        "stop" : 1522774648949,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f79bbac8b57d951",
+        "name" : "Response",
+        "source" : "4f79bbac8b57d951.json",
+        "type" : "application/json",
+        "size" : 171
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testClass",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Follow landing Page to video page"
+  }, {
+    "name" : "package",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c1dd03ed04110932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774585102,
+        "stop" : 1522774585116,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "dd8299cc90bc76b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774538359,
+        "stop" : 1522774541123,
+        "duration" : 2764
+      }
+    }, {
+      "uid" : "94cd75bda1018a25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774470775,
+        "stop" : 1522774479799,
+        "duration" : 9024
+      }
+    }, {
+      "uid" : "d5c35a6280aa4e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774423404,
+        "stop" : 1522774427465,
+        "duration" : 4061
+      }
+    }, {
+      "uid" : "94baab1bc6a5ecf6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522774380952,
+        "stop" : 1522774390960,
+        "duration" : 10008
+      }
+    }, {
+      "uid" : "6b408bde7b157e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774355647,
+        "stop" : 1522774364509,
+        "duration" : 8862
+      }
+    }, {
+      "uid" : "a335a710b876af7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522774321677,
+        "stop" : 1522774321679,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "76da3c8aac5ee0dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522773023911,
+        "stop" : 1522773023913,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b82b51a762a8375d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522772949197,
+        "stop" : 1522772949200,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "64865756d7fce966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522772925545,
+        "stop" : 1522772925547,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "abbbd32a1480d079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522772901217,
+        "stop" : 1522772901219,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7db901bec5b713a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522772728568,
+        "stop" : 1522772728571,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44ce0630ece368db.json",
+  "parameterValues" : [ "firefox" ]
+}

@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522792122879' stop='1522792132854'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work</title>
+    <test-cases>
+        <test-case start='1522792122879' status='broken' stop='1522792132853'>
+            <name>Check the functionality of the purchase link</name>
+            <title>Check the functionality of the purchase link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522792122879' status='passed' stop='1522792122880'>
+                    <name>POST /wd/hub/session/90864ceb-d2d7-f840-ad7c-fc543bd46f2c/element</name>
+                    <title>POST /wd/hub/session/90864ceb-d2d7-f840-ad7c-fc543bd46f2c/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1d20ada1-903b-4456-80fe-8086bd590bcb-attachment.json' type='application/json' size='150'/>
+                        <attachment title='Response' source='dc31502c-22e0-4818-a634-760172100c94-attachment.json' type='application/json' size='250'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522792122880' status='passed' stop='1522792125436'>
+                    <name>POST /wd/hub/session/90864ceb-d2d7-f840-ad7c-fc543bd46f2c/element/9136c8f3-df95-2647-b50d-10a27b6f4f35/click</name>
+                    <title>POST /wd/hub/session/90864ceb-d2d7-f840-ad7c-fc543bd46f2c/element/9136c8f3-df95-2647-b50d-10a27b6f4f35/click</title>
+                    <attachments>
+                        <attachment title='Response' source='22fb6184-3120-4c9c-b15c-5f0016e4e608-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522792125441' status='passed' stop='1522792125446'>
+                    <name>GET /wd/hub/session/90864ceb-d2d7-f840-ad7c-fc543bd46f2c/url</name>
+                    <title>GET /wd/hub/session/90864ceb-d2d7-f840-ad7c-fc543bd46f2c/url</title>
+                    <attachments>
+                        <attachment title='Response' source='e63360db-34fd-4657-b067-fac43f26258c-attachment.json' type='application/json' size='228'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/mocha/lib/runnable.js:255:19)
+                    at ontimeout (timers.js:386:14)
+                    at tryOnTimeout (timers.js:250:5)
+                    at Timer.listOnTimeout (timers.js:214:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

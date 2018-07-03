@@ -1,0 +1,81 @@
+{
+  "uid" : "4891807f04e72982",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522785086867,
+    "stop" : 1522785096870,
+    "duration" : 10003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.\n                    at Timeout.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/mocha/lib/runnable.js:255:19)\n                    at ontimeout (timers.js:386:14)\n                    at tryOnTimeout (timers.js:250:5)\n                    at Timer.listOnTimeout (timers.js:214:5)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+    "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.\n                    at Timeout.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/mocha/lib/runnable.js:255:19)\n                    at ontimeout (timers.js:386:14)\n                    at tryOnTimeout (timers.js:250:5)\n                    at Timer.listOnTimeout (timers.js:214:5)",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/2e6ae313-7fe3-b248-b4c1-d5c8311f0cf2/screenshot",
+      "time" : {
+        "start" : 1522785096903,
+        "stop" : 0,
+        "duration" : -1522785096903
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4891807f04e72982.json",
+  "parameterValues" : [ "firefox" ]
+}

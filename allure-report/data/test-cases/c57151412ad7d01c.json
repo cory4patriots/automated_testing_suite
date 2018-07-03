@@ -1,0 +1,114 @@
+{
+  "uid" : "c57151412ad7d01c",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "3d56c67584de8ed9ee19e4a33d05fd97",
+  "time" : {
+    "start" : 1522791191848,
+    "stop" : 1522791191850,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'",
+  "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:53:14)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'",
+    "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/index.php' == 'https://ppg.stage.4patriots.net/video/ppg/index.php'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:53:14)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/elements",
+      "time" : {
+        "start" : 1522791191849,
+        "stop" : 1522791191850,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22c615c8a73fe689",
+        "name" : "Request",
+        "source" : "22c615c8a73fe689.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "c6e1a83820a6f5db",
+        "name" : "Response",
+        "source" : "c6e1a83820a6f5db.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/6bb5ac07-288f-a14b-8435-219624c7e139/url",
+      "time" : {
+        "start" : 1522791191850,
+        "stop" : 1522791191850,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9f637f649b25e0a",
+        "name" : "Response",
+        "source" : "b9f637f649b25e0a.json",
+        "type" : "application/json",
+        "size" : 200
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c57151412ad7d01c.json",
+  "parameterValues" : [ "firefox" ]
+}

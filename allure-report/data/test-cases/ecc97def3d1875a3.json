@@ -1,0 +1,114 @@
+{
+  "uid" : "ecc97def3d1875a3",
+  "name" : "it opens the checkout page and verifies page url",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.it opens the checkout page and verifies page url",
+  "historyId" : "169605c5cdb3fa607d1cc558223221ca",
+  "time" : {
+    "start" : 1523308127552,
+    "stop" : 1523308129716,
+    "duration" : 2164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "'https://pph.stage.4patriots.net/checkout/pph/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+  "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/checkout/pph/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js:14:12)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "'https://pph.stage.4patriots.net/checkout/pph/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+    "statusTrace" : "AssertionError: 'https://pph.stage.4patriots.net/checkout/pph/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'\n                    at Context.<anonymous> (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js:14:12)\n                    at Promise.F (/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/3f98d4defd2690d15a7503939bfa247c/url",
+      "time" : {
+        "start" : 1523308127558,
+        "stop" : 1523308129698,
+        "duration" : 2140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30cfe7eab8499109",
+        "name" : "Request",
+        "source" : "30cfe7eab8499109.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "7f4f9ab98722ce0f",
+        "name" : "Response",
+        "source" : "7f4f9ab98722ce0f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/3f98d4defd2690d15a7503939bfa247c/url",
+      "time" : {
+        "start" : 1523308129703,
+        "stop" : 1523308129710,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a8f381c433855dc",
+        "name" : "Response",
+        "source" : "1a8f381c433855dc.json",
+        "type" : "application/json",
+        "size" : 143
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "it opens the checkout page and verifies page url"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecc97def3d1875a3.json",
+  "parameterValues" : [ "chrome" ]
+}

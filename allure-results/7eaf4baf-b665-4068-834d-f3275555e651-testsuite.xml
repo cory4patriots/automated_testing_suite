@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522775097127' stop='1522775097143'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522775097127' status='failed' stop='1522775097142'>
+            <name>Verify PPH Letter Page URL</name>
+            <title>Verify PPH Letter Page URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522775097131' status='passed' stop='1522775097139'>
+                    <name>GET /wd/hub/session/ed72c99a-5d60-134c-b420-ae6181475c87/url</name>
+                    <title>GET /wd/hub/session/ed72c99a-5d60-134c-b420-ae6181475c87/url</title>
+                    <attachments>
+                        <attachment title='Response' source='11ff9f5e-c93f-4253-bc89-ef804c16a20e-attachment.json' type='application/json' size='169'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'about:blank' == 'http://pph.dev.4patriots.net/index.php'</message>
+                <stack-trace>AssertionError: 'about:blank' == 'http://pph.dev.4patriots.net/index.php'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:9:12)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

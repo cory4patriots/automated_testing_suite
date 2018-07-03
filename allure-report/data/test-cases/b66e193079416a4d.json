@@ -1,0 +1,137 @@
+{
+  "uid" : "b66e193079416a4d",
+  "name" : "Should let you log in with valid credentials",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page.Should let you log in with valid credentials",
+  "historyId" : "eba8341b67e961e3609f18db07753add",
+  "time" : {
+    "start" : 1523310236618,
+    "stop" : 1523310257810,
+    "duration" : 21192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/df5495ad174e5843a3e0d35c50a4832d/elements",
+      "time" : {
+        "start" : 1523310236621,
+        "stop" : 1523310236635,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a365df49e165692e",
+        "name" : "Request",
+        "source" : "a365df49e165692e.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "a499a2c5cc364f25",
+        "name" : "Response",
+        "source" : "a499a2c5cc364f25.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/df5495ad174e5843a3e0d35c50a4832d/element/0.17101271342361857-1/clear",
+      "time" : {
+        "start" : 1523310236636,
+        "stop" : 1523310236665,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98da84db4947ac3c",
+        "name" : "Response",
+        "source" : "98da84db4947ac3c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/df5495ad174e5843a3e0d35c50a4832d/element/0.17101271342361857-1/value",
+      "time" : {
+        "start" : 1523310236665,
+        "stop" : 1523310236762,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a9a22534e35f5e6d",
+        "name" : "Request",
+        "source" : "a9a22534e35f5e6d.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "a12179f930a003a5",
+        "name" : "Response",
+        "source" : "a12179f930a003a5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should let you log in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b66e193079416a4d.json",
+  "parameterValues" : [ "chrome" ]
+}

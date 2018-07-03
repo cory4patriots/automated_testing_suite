@@ -1,0 +1,212 @@
+{
+  "uid" : "3733f30429f5665b",
+  "name" : "Should let you log in with valid credentials",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page.Should let you log in with valid credentials",
+  "historyId" : "eba8341b67e961e3609f18db07753add",
+  "time" : {
+    "start" : 1523310375796,
+    "stop" : 1523310390765,
+    "duration" : 14969
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4b3dedfd94a3694e0abaff9802f55cac/elements",
+      "time" : {
+        "start" : 1523310375799,
+        "stop" : 1523310375814,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "164fbaf394806f70",
+        "name" : "Request",
+        "source" : "164fbaf394806f70.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "7d4f73f83f72b71c",
+        "name" : "Response",
+        "source" : "7d4f73f83f72b71c.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/4b3dedfd94a3694e0abaff9802f55cac/element/0.5726864946843724-1/clear",
+      "time" : {
+        "start" : 1523310375816,
+        "stop" : 1523310375843,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d83e29dc0c68deba",
+        "name" : "Response",
+        "source" : "d83e29dc0c68deba.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/4b3dedfd94a3694e0abaff9802f55cac/element/0.5726864946843724-1/value",
+      "time" : {
+        "start" : 1523310375843,
+        "stop" : 1523310375938,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c251752f61d46969",
+        "name" : "Request",
+        "source" : "c251752f61d46969.json",
+        "type" : "application/json",
+        "size" : 95
+      }, {
+        "uid" : "8b636857ec374ea8",
+        "name" : "Response",
+        "source" : "8b636857ec374ea8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/4b3dedfd94a3694e0abaff9802f55cac/elements",
+      "time" : {
+        "start" : 1523310375942,
+        "stop" : 1523310375957,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "589b5027ea1b79a8",
+        "name" : "Request",
+        "source" : "589b5027ea1b79a8.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "660981fbc29f00e8",
+        "name" : "Response",
+        "source" : "660981fbc29f00e8.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/4b3dedfd94a3694e0abaff9802f55cac/element/0.5726864946843724-2/clear",
+      "time" : {
+        "start" : 1523310375957,
+        "stop" : 1523310375980,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cea5d2d1f86c4301",
+        "name" : "Response",
+        "source" : "cea5d2d1f86c4301.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/4b3dedfd94a3694e0abaff9802f55cac/element/0.5726864946843724-2/value",
+      "time" : {
+        "start" : 1523310375981,
+        "stop" : 1523310376045,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39130bd5f50b4fba",
+        "name" : "Request",
+        "source" : "39130bd5f50b4fba.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "ecf7d6e9a1e7a529",
+        "name" : "Response",
+        "source" : "ecf7d6e9a1e7a529.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should let you log in with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3733f30429f5665b.json",
+  "parameterValues" : [ "chrome" ]
+}

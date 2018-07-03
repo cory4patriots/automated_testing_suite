@@ -1,0 +1,277 @@
+{
+  "uid" : "d994b923fac882c",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522786183000,
+    "stop" : 1522786186384,
+    "duration" : 3384
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Promise was rejected with the following reason: Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector\n                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "Error: Promise was rejected with the following reason: Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                    Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                    System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                    Driver info: driver.version: unknown\n                    at elements(\"[body > div.navbar.navbar-default]\") - isVisible.js:54:17\n                    at isVisible(\"[body > div.navbar.navbar-default]\") - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Promise was rejected with the following reason: Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector\n                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "Error: Promise was rejected with the following reason: Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                    Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                    System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                    Driver info: driver.version: unknown\n                    at elements(\"[body > div.navbar.navbar-default]\") - isVisible.js:54:17\n                    at isVisible(\"[body > div.navbar.navbar-default]\") - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786183006,
+        "stop" : 1522786183016,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4cc19f57befcc2d1",
+        "name" : "Request",
+        "source" : "4cc19f57befcc2d1.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "6d24ccdbfa31173",
+        "name" : "Response",
+        "source" : "6d24ccdbfa31173.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786183507,
+        "stop" : 1522786183546,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b9a28d118418a7e",
+        "name" : "Request",
+        "source" : "4b9a28d118418a7e.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "e234adeb2f77c87",
+        "name" : "Response",
+        "source" : "e234adeb2f77c87.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786184010,
+        "stop" : 1522786184019,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3db21e2448c955db",
+        "name" : "Request",
+        "source" : "3db21e2448c955db.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "87b295a43ee2e07a",
+        "name" : "Response",
+        "source" : "87b295a43ee2e07a.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786184506,
+        "stop" : 1522786184518,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f6261cded24453e",
+        "name" : "Request",
+        "source" : "4f6261cded24453e.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "a59ab3c1bc51ffee",
+        "name" : "Response",
+        "source" : "a59ab3c1bc51ffee.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786185004,
+        "stop" : 1522786185017,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "747e8ae64dabb2fe",
+        "name" : "Request",
+        "source" : "747e8ae64dabb2fe.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "5f998a9ccf1d873c",
+        "name" : "Response",
+        "source" : "5f998a9ccf1d873c.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786185507,
+        "stop" : 1522786185517,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d07b1dce7d2dab9b",
+        "name" : "Request",
+        "source" : "d07b1dce7d2dab9b.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "f215aab4b1451ca1",
+        "name" : "Response",
+        "source" : "f215aab4b1451ca1.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements",
+      "time" : {
+        "start" : 1522786186005,
+        "stop" : 1522786186384,
+        "duration" : 379
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Promise was rejected with the following reason: Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                    Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                    System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                    Driver info: driver.version: unknown\n                    at elements(\"[body > div.navbar.navbar-default]\") - isVisible.js:54:17\n                    at isVisible(\"[body > div.navbar.navbar-default]\") - waitForVisible.js:73:22",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/screenshot",
+        "time" : {
+          "start" : 1522786186007,
+          "stop" : 1522786186018,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c5513837d0a780b5",
+          "name" : "Response",
+          "source" : "c5513837d0a780b5.json",
+          "type" : "application/json",
+          "size" : 1274
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "df6cc45a0cc4280d",
+        "name" : "Request",
+        "source" : "df6cc45a0cc4280d.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "9f546c0d2be26ad7",
+        "name" : "Screenshot",
+        "source" : "9f546c0d2be26ad7.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d994b923fac882c.json",
+  "parameterValues" : [ "firefox" ]
+}

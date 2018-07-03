@@ -1,0 +1,135 @@
+{
+  "uid" : "c3ad4e5f7371b1e1",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "3d56c67584de8ed9ee19e4a33d05fd97",
+  "time" : {
+    "start" : 1522792066143,
+    "stop" : 1522792076110,
+    "duration" : 9967
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.\n                    at Timeout.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/mocha/lib/runnable.js:255:19)\n                    at ontimeout (timers.js:386:14)\n                    at tryOnTimeout (timers.js:250:5)\n                    at Timer.listOnTimeout (timers.js:214:5)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+    "statusTrace" : "Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.\n                    at Timeout.<anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/mocha/lib/runnable.js:255:19)\n                    at ontimeout (timers.js:386:14)\n                    at tryOnTimeout (timers.js:250:5)\n                    at Timer.listOnTimeout (timers.js:214:5)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/d44f002f-d14a-1043-a8b2-5bf24d59cfe3/element",
+      "time" : {
+        "start" : 1522792066143,
+        "stop" : 1522792066144,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9069604498515e6a",
+        "name" : "Request",
+        "source" : "9069604498515e6a.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "e3af8043d5beffc6",
+        "name" : "Response",
+        "source" : "e3af8043d5beffc6.json",
+        "type" : "application/json",
+        "size" : 249
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/d44f002f-d14a-1043-a8b2-5bf24d59cfe3/element/94da4f3c-4f3a-3941-8a28-066085cf2513/click",
+      "time" : {
+        "start" : 1522792066144,
+        "stop" : 1522792068774,
+        "duration" : 2630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b9541008aa76cc",
+        "name" : "Response",
+        "source" : "4b9541008aa76cc.json",
+        "type" : "application/json",
+        "size" : 159
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/d44f002f-d14a-1043-a8b2-5bf24d59cfe3/url",
+      "time" : {
+        "start" : 1522792068778,
+        "stop" : 1522792068783,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "161e0a15831ade7",
+        "name" : "Response",
+        "source" : "161e0a15831ade7.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3ad4e5f7371b1e1.json",
+  "parameterValues" : [ "firefox" ]
+}

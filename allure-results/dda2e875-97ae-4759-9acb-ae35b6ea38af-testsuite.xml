@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1523309669222' stop='1523309679188'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Login Page</title>
+    <test-cases>
+        <test-case start='1523309669222' status='passed' stop='1523309679187'>
+            <name>Should let you log in with valid credentials</name>
+            <title>Should let you log in with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/Projects/PPH_Smoke/test/checkout.test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1523309669225' status='passed' stop='1523309669243'>
+                    <name>POST /wd/hub/session/67d57b1207f7c68f60e0a1d569b7ebfc/elements</name>
+                    <title>POST /wd/hub/session/67d57b1207f7c68f60e0a1d569b7ebfc/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='66957de5-ab82-4557-ad7d-01b219287225-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='3c314f06-bf74-47a2-bb69-688b414cb2df-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523309669244' status='passed' stop='1523309669265'>
+                    <name>POST /wd/hub/session/67d57b1207f7c68f60e0a1d569b7ebfc/element/0.43667491293009997-1/clear</name>
+                    <title>POST /wd/hub/session/67d57b1207f7c68f60e0a1d569b7ebfc/element/0.43667491293009997-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='d874064f-0f90-4012-a700-3ff1beb85326-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1523309669266' status='passed' stop='1523309669362'>
+                    <name>POST /wd/hub/session/67d57b1207f7c68f60e0a1d569b7ebfc/element/0.43667491293009997-1/value</name>
+                    <title>POST /wd/hub/session/67d57b1207f7c68f60e0a1d569b7ebfc/element/0.43667491293009997-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='cf3084a2-fc2e-4556-80a0-8718a3533d40-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='79a1ec25-b526-49b0-9def-9d306dc73055-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

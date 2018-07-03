@@ -1,0 +1,115 @@
+{
+  "uid" : "c1572eb0d5e0b6f0",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522784887707,
+    "stop" : 1522784888130,
+    "duration" : 423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+  "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:45)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:45)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b72ea661-c9ab-e54a-865b-d209cb3884a4/element",
+      "time" : {
+        "start" : 1522784887708,
+        "stop" : 1522784887709,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6bbb529e2f0171a7",
+        "name" : "Request",
+        "source" : "6bbb529e2f0171a7.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "c1271263833e1483",
+        "name" : "Response",
+        "source" : "c1271263833e1483.json",
+        "type" : "application/json",
+        "size" : 250
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/b72ea661-c9ab-e54a-865b-d209cb3884a4/screenshot",
+      "time" : {
+        "start" : 1522784887710,
+        "stop" : 1522784888130,
+        "duration" : 420
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:45)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc010dd1591fe4c4",
+        "name" : "Screenshot",
+        "source" : "cc010dd1591fe4c4.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1572eb0d5e0b6f0.json",
+  "parameterValues" : [ "firefox" ]
+}

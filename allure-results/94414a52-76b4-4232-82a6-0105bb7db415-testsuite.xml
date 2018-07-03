@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522775211558' stop='1522775212745'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522775211558' status='failed' stop='1522775212745'>
+            <name>Verify PPH Letter Page URL</name>
+            <title>Verify PPH Letter Page URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522775211561' status='passed' stop='1522775212702'>
+                    <name>POST /wd/hub/session/892ba780-0db2-9645-853b-e10d85deb7ec/url</name>
+                    <title>POST /wd/hub/session/892ba780-0db2-9645-853b-e10d85deb7ec/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3efaec92-61b6-415c-917e-a8162ef09685-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='fb5f377c-3255-4950-aef0-ba0297f373cd-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522775212744' status='passed' stop='1522775212744'>
+                    <name>GET /wd/hub/session/892ba780-0db2-9645-853b-e10d85deb7ec/url</name>
+                    <title>GET /wd/hub/session/892ba780-0db2-9645-853b-e10d85deb7ec/url</title>
+                    <attachments>
+                        <attachment title='Response' source='6daaf27b-1afa-44d2-a0a5-50f9847d4096-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'https://secure.patriotpowerhub.com/' == 'http://pph.dev.4patriots.net/index.php'</message>
+                <stack-trace>AssertionError: 'https://secure.patriotpowerhub.com/' == 'http://pph.dev.4patriots.net/index.php'
+                    at Context.&lt;anonymous> (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js:11:12)
+                    at Promise.F (/Users/corykelly/Downloads/My Stuff/PPH_Smoke/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

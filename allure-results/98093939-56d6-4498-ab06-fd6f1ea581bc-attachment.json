@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "body > div.navbar.navbar-default > div > div > div.navbar-collapse.collapse > ul > li:nth-child(2) > a"
+}

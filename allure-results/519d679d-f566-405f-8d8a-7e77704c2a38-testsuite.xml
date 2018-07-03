@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522791898973' stop='1522791903474'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522791898973' status='passed' stop='1522791901324'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1522791898976' status='passed' stop='1522791901284'>
+                    <name>POST /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/url</name>
+                    <title>POST /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a09b7008-991a-4396-a3b6-4908e674ba63-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='bac2868d-6920-470b-a8e7-7aad041e6148-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522791901323' status='passed' stop='1522791901324'>
+                    <name>GET /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/url</name>
+                    <title>GET /wd/hub/session/01a830c1-418f-fd43-8541-c05548355398/url</title>
+                    <attachments>
+                        <attachment title='Response' source='11c67484-fdac-48f3-abc1-a5d8f98b191a-attachment.json' type='application/json' size='201'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

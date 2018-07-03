@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php'",
+      "children" : [ {
+        "name" : "Check the functionality of the purchase link",
+        "uid" : "e65482a586dcf80a",
+        "parentUid" : "551cb80a4f3bf826fa8435289bfc37ba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1522789710297,
+          "stop" : 1522789710298,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "551cb80a4f3bf826fa8435289bfc37ba"
+    }, {
+      "name" : "'https://pph.stage.4patriots.net/index.php' == 'https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE'",
+      "children" : [ {
+        "name" : "Check the functionality of the purchase link",
+        "uid" : "f0f1440c59834c4c",
+        "parentUid" : "7415f26448e637b1e4aae1c0d9277a44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1523307772213,
+          "stop" : 1523307772258,
+          "duration" : 45
+        },
+        "flaky" : true,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "7415f26448e637b1e4aae1c0d9277a44"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

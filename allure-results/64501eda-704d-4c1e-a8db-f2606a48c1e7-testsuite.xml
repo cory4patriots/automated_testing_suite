@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522786182071' stop='1522786186385'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522786182071' status='passed' stop='1522786183000'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1522786182073' status='passed' stop='1522786182987'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/url</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2bec16e0-db44-4835-bbdd-274caf1a3d64-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='ea7642db-fdb4-45e9-9918-9a95412a4c63-attachment.json' type='application/json' size='159'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786182991' status='passed' stop='1522786182997'>
+                    <name>GET /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/url</name>
+                    <title>GET /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/url</title>
+                    <attachments>
+                        <attachment title='Response' source='e3c1e3df-70eb-45d8-8e04-284d7bc5bcae-attachment.json' type='application/json' size='198'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1522786183000' status='broken' stop='1522786186384'>
+            <name>Navbar should be visiable on landing page</name>
+            <title>Navbar should be visiable on landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522786183006' status='passed' stop='1522786183016'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='cbc31b87-f897-4889-ac65-cea21041cb8b-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='7e370c8b-554f-409c-94b6-ba243ed7edfe-attachment.json' type='application/json' size='1274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786183507' status='passed' stop='1522786183546'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7ca877a7-8fc6-41a7-af76-766f0299a2ed-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='dbd59224-fc8e-4dd1-be39-0f9ea8337f9f-attachment.json' type='application/json' size='1274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786184010' status='passed' stop='1522786184019'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1d4b0d5e-1276-44b9-bcf8-f961270c3b71-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='fa9619f3-793a-4ada-b4d6-3c883ca14a46-attachment.json' type='application/json' size='1274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786184506' status='passed' stop='1522786184518'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='727a2cfe-a7e2-4a74-b0a4-075a8eb161b6-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='da421830-2378-4195-8c1f-14180f6d4eef-attachment.json' type='application/json' size='1274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786185004' status='passed' stop='1522786185017'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='65e84e7e-dd56-4ecd-b21f-d949cbc993d0-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='ecae231a-fe32-4df0-985a-a8462a8c3dfc-attachment.json' type='application/json' size='1274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786185507' status='passed' stop='1522786185517'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e8177f90-7610-443c-8658-0b85b67103ae-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='f051a63d-b451-4148-95c9-ee27316e338d-attachment.json' type='application/json' size='1274'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522786186005' status='broken' stop='1522786186384'>
+                    <name>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</name>
+                    <title>POST /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='48e43a93-a666-485d-851b-6ff1c75b9ee7-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Screenshot' source='7e1a2077-b12b-461c-b68b-954b2f560576-attachment.png' type='image/png' size='916261'/>
+                    </attachments>
+                    <steps>
+                        <step start='1522786186007' status='passed' stop='1522786186018'>
+                            <name>GET /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/screenshot</name>
+                            <title>GET /wd/hub/session/89143e82-e12c-5c44-a722-f302adabd880/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='31616e40-762a-4e52-8ed3-c1eff58b1091-attachment.json' type='application/json' size='1274'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Promise was rejected with the following reason: Given css selector expression "[body > div.navbar.navbar-default]" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector
+                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'
+                Driver info: driver.version: unknown</message>
+                <stack-trace>Error: Promise was rejected with the following reason: Given css selector expression "[body > div.navbar.navbar-default]" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector
+                    at Context.&lt;anonymous> (test/funnel-flow.js:19:13)
+                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)
+                    For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+                    Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
+                    System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'
+                    Driver info: driver.version: unknown
+                    at elements("[body > div.navbar.navbar-default]") - isVisible.js:54:17
+                    at isVisible("[body > div.navbar.navbar-default]") - waitForVisible.js:73:22</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

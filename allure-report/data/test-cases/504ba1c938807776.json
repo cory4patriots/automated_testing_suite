@@ -1,0 +1,333 @@
+{
+  "uid" : "504ba1c938807776",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522786251542,
+    "stop" : 1522786251638,
+    "duration" : 96
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/5327de49-2c3c-c949-9d8e-0ac534c25a31/elements",
+      "time" : {
+        "start" : 1522786251548,
+        "stop" : 1522786251559,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8aad1ccd067fb510",
+        "name" : "Request",
+        "source" : "8aad1ccd067fb510.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "ca346886867e1158",
+        "name" : "Response",
+        "source" : "ca346886867e1158.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/5327de49-2c3c-c949-9d8e-0ac534c25a31/element/d10df2e2-7203-8743-94b9-f6ad957c531e/displayed",
+      "time" : {
+        "start" : 1522786251560,
+        "stop" : 1522786251579,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2dd8fd28e011dc3",
+        "name" : "Response",
+        "source" : "c2dd8fd28e011dc3.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/5327de49-2c3c-c949-9d8e-0ac534c25a31/elements",
+      "time" : {
+        "start" : 1522786251584,
+        "stop" : 1522786251591,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ad19084b4df98cba",
+        "name" : "Request",
+        "source" : "ad19084b4df98cba.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "30875664aa15864f",
+        "name" : "Response",
+        "source" : "30875664aa15864f.json",
+        "type" : "application/json",
+        "size" : 275
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/5327de49-2c3c-c949-9d8e-0ac534c25a31/element/d10df2e2-7203-8743-94b9-f6ad957c531e/displayed",
+      "time" : {
+        "start" : 1522786251591,
+        "stop" : 1522786251608,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6a10090c611dead",
+        "name" : "Response",
+        "source" : "b6a10090c611dead.json",
+        "type" : "application/json",
+        "size" : 162
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/5327de49-2c3c-c949-9d8e-0ac534c25a31/elements",
+      "time" : {
+        "start" : 1522786251610,
+        "stop" : 1522786251619,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68e55299e206effa",
+        "name" : "Request",
+        "source" : "68e55299e206effa.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "a769b06f4c9b1d37",
+        "name" : "Response",
+        "source" : "a769b06f4c9b1d37.json",
+        "type" : "application/json",
+        "size" : 274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/5327de49-2c3c-c949-9d8e-0ac534c25a31/element/d10df2e2-7203-8743-94b9-f6ad957c531e/displayed",
+      "time" : {
+        "start" : 1522786251619,
+        "stop" : 1522786251636,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "622bdbf15754b72c",
+        "name" : "Response",
+        "source" : "622bdbf15754b72c.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d994b923fac882c",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: SyntaxError: '[body > div.navbar.navbar-default]' is not a valid selector\n                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1522786183000,
+        "stop" : 1522786186384,
+        "duration" : 3384
+      }
+    }, {
+      "uid" : "8396524fc421c583",
+      "status" : "broken",
+      "statusDetails" : "Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: InvalidSelectorError: '[body > div.navbar.navbar-default]' is not a valid selector: \"[body > div.navbar.navbar-default]\"\n                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1522786098519,
+        "stop" : 1522786098941,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "e5f4f69fbdc87a1d",
+      "status" : "broken",
+      "statusDetails" : "selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522786062253,
+        "stop" : 1522786062593,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "450bc17c390c0615",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522786015187,
+        "stop" : 1522786018529,
+        "duration" : 3342
+      }
+    }, {
+      "uid" : "7a51b1825125e4",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522785630540,
+        "stop" : 1522785633897,
+        "duration" : 3357
+      }
+    }, {
+      "uid" : "192a4f8cab9f277b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522785600687,
+        "stop" : 1522785610670,
+        "duration" : 9983
+      }
+    }, {
+      "uid" : "94b267bf73aeaa2e",
+      "status" : "broken",
+      "statusDetails" : "element (\"landing.nav_bar_elem\") still not visible after 0ms",
+      "time" : {
+        "start" : 1522785441052,
+        "stop" : 1522785441397,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "6a702a866f8d2ebf",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522785391210,
+        "stop" : 1522785391619,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "272cc41dd0f374f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1522785339723,
+        "stop" : 1522785339724,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "108aaf96b08d7b73",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522785241646,
+        "stop" : 1522785244977,
+        "duration" : 3331
+      }
+    }, {
+      "uid" : "4891807f04e72982",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.",
+      "time" : {
+        "start" : 1522785086867,
+        "stop" : 1522785096870,
+        "duration" : 10003
+      }
+    }, {
+      "uid" : "2ca8ebbb4f3dd893",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522784996085,
+        "stop" : 1522784996546,
+        "duration" : 461
+      }
+    }, {
+      "uid" : "c537d21f9b7e5dfd",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522784934067,
+        "stop" : 1522784934482,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "c1572eb0d5e0b6f0",
+      "status" : "broken",
+      "statusDetails" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+      "time" : {
+        "start" : 1522784887707,
+        "stop" : 1522784888130,
+        "duration" : 423
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "504ba1c938807776.json",
+  "parameterValues" : [ "firefox" ]
+}

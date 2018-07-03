@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1522784149752' stop='1522784151213'>
+    <name>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</name>
+    <title>Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test</title>
+    <test-cases>
+        <test-case start='1522784149753' status='passed' stop='1522784151213'>
+            <name>Verify PPH landing page URL</name>
+            <title>Verify PPH landing page URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1522784149756' status='passed' stop='1522784151168'>
+                    <name>POST /wd/hub/session/060fcc00-1c2f-a647-a5f1-d7d1709c7e03/url</name>
+                    <title>POST /wd/hub/session/060fcc00-1c2f-a647-a5f1-d7d1709c7e03/url</title>
+                    <attachments>
+                        <attachment title='Request' source='42b2d36e-610a-430c-93b7-dac35ae1c8b0-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='d90fb419-262a-4152-870c-292fd75b8d56-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1522784151212' status='passed' stop='1522784151212'>
+                    <name>GET /wd/hub/session/060fcc00-1c2f-a647-a5f1-d7d1709c7e03/url</name>
+                    <title>GET /wd/hub/session/060fcc00-1c2f-a647-a5f1-d7d1709c7e03/url</title>
+                    <attachments>
+                        <attachment title='Response' source='618d922e-dd60-4ef5-857d-e4c618946bc7-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

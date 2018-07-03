@@ -1,0 +1,115 @@
+{
+  "uid" : "17875b7d6df5f62a",
+  "name" : "Check the functionality of the purchase link",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work.Check the functionality of the purchase link",
+  "historyId" : "3d56c67584de8ed9ee19e4a33d05fd97",
+  "time" : {
+    "start" : 1522789911144,
+    "stop" : 1522789914481,
+    "duration" : 3337
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+  "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:48:15)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:48:15)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/16588242-ac50-934e-b2c2-16d14ce2cc99/element",
+      "time" : {
+        "start" : 1522789911144,
+        "stop" : 1522789911145,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd676d686a4e2c88",
+        "name" : "Request",
+        "source" : "dd676d686a4e2c88.json",
+        "type" : "application/json",
+        "size" : 150
+      }, {
+        "uid" : "df680c4fac0e5221",
+        "name" : "Response",
+        "source" : "df680c4fac0e5221.json",
+        "type" : "application/json",
+        "size" : 250
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/16588242-ac50-934e-b2c2-16d14ce2cc99/screenshot",
+      "time" : {
+        "start" : 1522789914132,
+        "stop" : 1522789914481,
+        "duration" : 349
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:48:15)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15b63e8ed1775551",
+        "name" : "Screenshot",
+        "source" : "15b63e8ed1775551.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the functionality of the purchase link"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test Verifiy landing page Link work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17875b7d6df5f62a.json",
+  "parameterValues" : [ "firefox" ]
+}

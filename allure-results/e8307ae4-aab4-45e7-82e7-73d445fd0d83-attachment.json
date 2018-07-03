@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "#testimonials-rotate > div > div > div.testimonials.col-md-12 > p"
+}

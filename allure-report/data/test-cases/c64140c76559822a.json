@@ -1,0 +1,115 @@
+{
+  "uid" : "c64140c76559822a",
+  "name" : "Should Follow landing Page to Letter page",
+  "fullName" : "PPH Landing Page Test.Should Follow landing Page to Letter page",
+  "historyId" : "884254a6008501bead54d680db21f345",
+  "time" : {
+    "start" : 1522771283684,
+    "stop" : 1522771283750,
+    "duration" : 66
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").\n                    at Context.<anonymous> (test/funnel-flow.js:6:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at click() - at Page.value (pages/home.page.js:18:24)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").\n                    at Context.<anonymous> (test/funnel-flow.js:6:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at click() - at Page.value (pages/home.page.js:18:24)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4ada0970-b7ef-3c49-8bcb-827c3c5ddd89/element",
+      "time" : {
+        "start" : 1522771283687,
+        "stop" : 1522771283697,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f97ab16ae4300968",
+        "name" : "Request",
+        "source" : "f97ab16ae4300968.json",
+        "type" : "application/json",
+        "size" : 174
+      }, {
+        "uid" : "ce1628d303aad75",
+        "name" : "Response",
+        "source" : "ce1628d303aad75.json",
+        "type" : "application/json",
+        "size" : 1274
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/4ada0970-b7ef-3c49-8bcb-827c3c5ddd89/screenshot",
+      "time" : {
+        "start" : 1522771283701,
+        "stop" : 1522771283750,
+        "duration" : 49
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: An element could not be located on the page using the given search parameters (\"body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\").\n                    at Context.<anonymous> (test/funnel-flow.js:6:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at click() - at Page.value (pages/home.page.js:18:24)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5e7ce0dddc9b3a1",
+        "name" : "Screenshot",
+        "source" : "d5e7ce0dddc9b3a1.png",
+        "type" : "image/png",
+        "size" : 283
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testClass",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Follow landing Page to Letter page"
+  }, {
+    "name" : "package",
+    "value" : "PPH Landing Page Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c64140c76559822a.json",
+  "parameterValues" : [ "firefox" ]
+}

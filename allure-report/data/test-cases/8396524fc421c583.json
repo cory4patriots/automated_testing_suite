@@ -1,0 +1,115 @@
+{
+  "uid" : "8396524fc421c583",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522786098519,
+    "stop" : 1522786098941,
+    "duration" : 422
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: InvalidSelectorError: '[body > div.navbar.navbar-default]' is not a valid selector: \"[body > div.navbar.navbar-default]\"\n                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at Context.<anonymous> (test/funnel-flow.js:19:35)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at element(\"[body > div.navbar.navbar-default]\") - at Page.get (pages/home.page.js:47:22)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: InvalidSelectorError: '[body > div.navbar.navbar-default]' is not a valid selector: \"[body > div.navbar.navbar-default]\"\n                For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\n                Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\n                System info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at Context.<anonymous> (test/funnel-flow.js:19:35)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at element(\"[body > div.navbar.navbar-default]\") - at Page.get (pages/home.page.js:47:22)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/9ef2b644-2b0b-bb41-9ae3-8f4c96f3d38e/element",
+      "time" : {
+        "start" : 1522786098523,
+        "stop" : 1522786098535,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3480c92aa1afde13",
+        "name" : "Request",
+        "source" : "3480c92aa1afde13.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "f8b3d2fbf5b73854",
+        "name" : "Response",
+        "source" : "f8b3d2fbf5b73854.json",
+        "type" : "application/json",
+        "size" : 1372
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/9ef2b644-2b0b-bb41-9ae3-8f4c96f3d38e/screenshot",
+      "time" : {
+        "start" : 1522786098536,
+        "stop" : 1522786098941,
+        "duration" : 405
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Argument was an invalid selector (e.g. XPath/CSS).\n                    at Context.<anonymous> (test/funnel-flow.js:19:35)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at element(\"[body > div.navbar.navbar-default]\") - at Page.get (pages/home.page.js:47:22)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b27492f5b4348e8",
+        "name" : "Screenshot",
+        "source" : "9b27492f5b4348e8.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8396524fc421c583.json",
+  "parameterValues" : [ "firefox" ]
+}

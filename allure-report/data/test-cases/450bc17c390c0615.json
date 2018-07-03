@@ -1,0 +1,115 @@
+{
+  "uid" : "450bc17c390c0615",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522786015187,
+    "stop" : 1522786018529,
+    "duration" : 3342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+  "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/b605288b-4708-8d45-91ff-bf777e6db0b4/element",
+      "time" : {
+        "start" : 1522786015188,
+        "stop" : 1522786015188,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1ed736444d2c7cd",
+        "name" : "Request",
+        "source" : "c1ed736444d2c7cd.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "3e66f36f830a9f92",
+        "name" : "Response",
+        "source" : "3e66f36f830a9f92.json",
+        "type" : "application/json",
+        "size" : 250
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/b605288b-4708-8d45-91ff-bf777e6db0b4/screenshot",
+      "time" : {
+        "start" : 1522786018180,
+        "stop" : 1522786018529,
+        "duration" : 349
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Context.<anonymous> (test/funnel-flow.js:19:13)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements([object Object]) - isVisible.js:54:17\n                    at isVisible([object Object]) - waitForVisible.js:73:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35a90f83d30103bb",
+        "name" : "Screenshot",
+        "source" : "35a90f83d30103bb.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "450bc17c390c0615.json",
+  "parameterValues" : [ "firefox" ]
+}

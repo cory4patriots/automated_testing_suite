@@ -1,0 +1,88 @@
+{
+  "uid" : "6a702a866f8d2ebf",
+  "name" : "Navbar should be visiable on landing page",
+  "fullName" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test.Navbar should be visiable on landing page",
+  "historyId" : "b1d9b6e782d4c69842906d9894d2ce4b",
+  "time" : {
+    "start" : 1522785391210,
+    "stop" : 1522785391619,
+    "duration" : 409
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+  "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:45)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(<Function>) - isVisible.js:54:17\n                    at isVisible(<Function>) - waitForVisible.js:73:22",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Promise was rejected with the following reason: selector needs to be typeof `string`",
+    "statusTrace" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:45)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(<Function>) - isVisible.js:54:17\n                    at isVisible(<Function>) - waitForVisible.js:73:22",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/4d21af31-6287-ad41-9ee1-2ca1df68b029/screenshot",
+      "time" : {
+        "start" : 1522785391220,
+        "stop" : 1522785391619,
+        "duration" : 399
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Promise was rejected with the following reason: selector needs to be typeof `string`\n                    at Proxy.<anonymous> (node_modules/chai-webdriverio/dist/assertions/visible.js:23:20)\n                    at Proxy.methodWrapper (node_modules/chai/lib/chai/utils/addMethod.js:57:25)\n                    at Context.<anonymous> (test/funnel-flow.js:19:45)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:36:28)\n                    at elements(<Function>) - isVisible.js:54:17\n                    at isVisible(<Function>) - waitForVisible.js:73:22",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee126069ceedeffc",
+        "name" : "Screenshot",
+        "source" : "ee126069ceedeffc.png",
+        "type" : "image/png",
+        "size" : 916261
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navbar should be visiable on landing page"
+  }, {
+    "name" : "package",
+    "value" : "Site: Patriotpowerhub | Funnel: PPH Main | QA Smoke Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a702a866f8d2ebf.json",
+  "parameterValues" : [ "firefox" ]
+}

@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/corykelly/Downloads/My Stuff/PPH_Smoke/test/funnel-flow.js\"]" ],
+  "name" : "spec files"
+} ]
