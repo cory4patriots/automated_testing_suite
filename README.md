@@ -1,1 +1,1 @@
-# automated_testing_suite
+# Automated Testing Suite
