@@ -1,8 +1,0 @@
-{
-    "state": "success",
-    "sessionId": null,
-    "hCode": 2027663502,
-    "value": "https://pph.stage.4patriots.net/checkout/pph/index.php?AFID=MINISITE",
-    "class": "org.openqa.selenium.remote.Response",
-    "status": 0
-}

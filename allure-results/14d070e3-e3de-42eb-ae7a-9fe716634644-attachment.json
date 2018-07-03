@@ -1,9 +1,0 @@
-{
-    "message": "Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: InvalidSelectorError: '[body > div.navbar.navbar-default]' is not a valid selector: \"[body > div.navbar.navbar-default]\"\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\nSystem info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\nDriver info: driver.version: unknown",
-    "type": "RuntimeError",
-    "seleniumStack": {
-        "type": "InvalidSelector",
-        "message": "Argument was an invalid selector (e.g. XPath/CSS).",
-        "orgStatusMessage": "Given css selector expression \"[body > div.navbar.navbar-default]\" is invalid: InvalidSelectorError: '[body > div.navbar.navbar-default]' is not a valid selector: \"[body > div.navbar.navbar-default]\"\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\nSystem info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\nDriver info: driver.version: unknown"
-    }
-}

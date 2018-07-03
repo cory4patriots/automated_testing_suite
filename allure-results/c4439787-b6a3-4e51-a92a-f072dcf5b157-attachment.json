@@ -1,9 +1,0 @@
-{
-    "message": "Unable to locate element: body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\nSystem info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\nDriver info: driver.version: unknown",
-    "type": "RuntimeError",
-    "seleniumStack": {
-        "type": "NoSuchElement",
-        "message": "An element could not be located on the page using the given search parameters.",
-        "orgStatusMessage": "Unable to locate element: body > div.container-main > div.container > div > div:nth-child(1) > div > div:nth-child(2) > div > div > div:nth-child(2) > a\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'\nSystem info: host: 'Corys-MBP', ip: '192.168.1.71', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '10'\nDriver info: driver.version: unknown"
-    }
-}
