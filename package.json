@@ -29,7 +29,7 @@
     "webdriverio": "^4.10.1"
   },
   "devDependencies": {
-    "eslint": "^3.4.0",
+    "eslint": ">=4.18.2",
     "selenium-standalone": "^6.22.2",
     "wdio-visual-regression-service": "^0.9.0"
   }
